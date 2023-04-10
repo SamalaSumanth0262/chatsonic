@@ -1,0 +1,78 @@
+require:
+ - rubocop-performance
+ - rubocop-rspec
+ - rubocop-rake
+
+AllCops:
+  TargetRubyVersion: 2.7
+  NewCops: enable
+  Exclude:
+    - 'spec/dummy/bin/*'
+    - vendor/**
+    - vendor/bundle/**/*
+    - bin/**
+
+Layout/SpaceInsideHashLiteralBraces:
+  EnforcedStyle: no_space
+
+Metrics/BlockLength:
+  Max: 36
+  Exclude:
+    - spec/**/*.rb
+    - lokalise_rails.gemspec
+
+Metrics/BlockNesting:
+  Max: 2
+
+RSpec/DescribeClass:
+  Enabled: false
+
+Layout/LineLength:
+  AllowURI: true
+  Exclude:
+    - lib/generators/templates/lokalise_rails_config.rb
+
+Metrics/MethodLength:
+  CountComments: false
+  Max: 15
+
+Metrics/ModuleLength:
+  Max: 120
+
+Metrics/ClassLength:
+  Max: 120
+
+Metrics/ParameterLists:
+  Max: 5
+  CountKeywordArgs: true
+
+Style/CollectionMethods:
+  Enabled: true
+  PreferredMethods:
+    collect:  'map'
+    collect!: 'map!'
+    inject:   'reduce'
+    find:     'detect'
+    find_all: 'select'
+    delete:   'gsub'
+
+Layout/DotPosition:
+  EnforcedStyle: trailing
+
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: 'no_comma'
+
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: 'no_comma'
+
+RSpec/MultipleExpectations:
+  Max: 30
+
+RSpec/ExampleLength:
+  Max: 35
+
+RSpec/FilePath:
+  Enabled: false
+
+RSpec/MultipleMemoizedHelpers:
+  Max: 10
