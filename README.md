@@ -1,6 +1,6 @@
 # ChatGPT Alternative Built With Superpowers - ChatSonic (Now GPT-4 Powered) Rails Gem
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/alexrudall/ruby-openai/blob/main/LICENSE.txt)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/SamalaSumanth0262/chatsonic/blob/master/LICENSE)
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
 
 Use the [ChatSonic API](https://writesonic.com/chat) with Ruby! 🤖❤️
@@ -56,7 +56,7 @@ For a more robust setup, you can configure the gem with your API keys, for examp
 
 ```ruby
 ChatSonic.configure do |config|
-    config.access_token = ENV.fetch('OPENAI_ACCESS_TOKEN')
+    config.access_token = ENV.fetch('API-KEY')
 end
 ```
 
@@ -68,7 +68,7 @@ client = ChatSonic::Client.new
 
 #### Custom timeout or base URI
 
-The default timeout for any OpenAI request is 120 seconds. You can change that passing the `request_timeout` when initializing the client. You can also change the base URI used for all requests. 
+The default timeout for any ChatSonic request is 120 seconds. You can change that passing the `request_timeout` when initializing the client. You can also change the base URI used for all requests. 
 
 ```ruby
 client = ChatSonic::Client.new(
@@ -81,8 +81,8 @@ client = ChatSonic::Client.new(
 or when configuring the gem:
 
 ```ruby
-OpenAI.configure do |config|
-    config.access_token = ENV.fetch("OPENAI_ACCESS_TOKEN")
+ChatSonic.configure do |config|
+    config.access_token = ENV.fetch("API_KEY")
     config.uri_base = "https://api.writesonic.com/" # Optional
     config.request_timeout = 240 # Optional
 end
@@ -108,12 +108,9 @@ input_text can be your prompt
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
-## Code of Conduct
-
-Everyone interacting in the Ruby OpenAI project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/alexrudall/ruby-openai/blob/main/CODE_OF_CONDUCT.md).
-
-
 ## ToDo: Implement
 1. Create a pull request template
 2. Create a circle CI for CI/CD
 3. Rspec to be implemented
+4. Code of Coduct
+5. Contributing
