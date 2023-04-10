@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.email                 = ['chintusamala96@gmail.com ']
   spec.summary               = 'ChatSonic Integration with Rails'
   spec.description           = 'This gem allows interact with ChatSonic ( An Alternative to ChatGPT-4 ) with Real Time Data Model'
-  spec.homepage              = 'https://github.com/'
+  spec.homepage              = 'https://github.com/SamalaSumanth0262/chatsonic'
   spec.license               = 'MIT'
   spec.files                 = Dir['README.md', 'LICENSE',
                                     'CHANGELOG.md', 'lib/**/*.rb',
