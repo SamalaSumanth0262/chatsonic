@@ -97,16 +97,28 @@ ChatSonic is a model that can be used to generate text in a conversational style
 client.prompt(parameters: {
     enable_google_results: true,
     enable_memory: true,
-    input_text: 'Write Me a Poem'
+    input_text: 'Hi'
   })
 # => "Hello! How may I assist you today?"
 ```
 
 input_text can be your prompt
 
+## Rspec ( Test Cases )
+
+For Specs you can run `bundle rake rspec`. Make sure all the specs are passed before raising a PR. PR template can be found here [Pull Request Template](https://github.com/SamalaSumanth0262/chatsonic/blob/master/pull_request_template.md)
+
+## Feature Request
+You can raise a feature request in this mentioned format [Feature Request Format](https://github.com/SamalaSumanth0262/chatsonic/blob/master/.github/ISSUE_TEMPLATE/feature_request.md)
+
+## Bug Report
+You can raise a Bug report in this mentioned format [Bug Report Format](https://github.com/SamalaSumanth0262/chatsonic/blob/master/.github/ISSUE_TEMPLATE/bug_report.md)
+
+
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
 
 ## ToDo: Implement
 1. Create a pull request template
