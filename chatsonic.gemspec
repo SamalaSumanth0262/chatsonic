@@ -2,7 +2,7 @@ require File.expand_path('lib/chatsonic/version', __dir__)
 
 Gem::Specification.new do |spec|
   spec.name                  = 'chatsonic'
-  spec.version               = Chatsonic::VERSION
+  spec.version               = ChatSonic::VERSION
   spec.authors               = ['Samala Sumanth']
   spec.email                 = ['chintusamala96@gmail.com ']
   spec.summary               = 'ChatSonic Integration with Rails'
