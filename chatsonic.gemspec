@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.files                 = Dir['README.md', 'LICENSE',
                                     'CHANGELOG.md', 'lib/**/*.rb',
                                     'lib/**/*.rake',
-                                    'lokalise_rails.gemspec', '.github/*.md',
+                                    'chatsonic.gemspec', '.github/*.md',
                                     'Gemfile', 'Rakefile']
   spec.platform              = Gem::Platform::RUBY
   spec.required_ruby_version = '>= 2.5.0'

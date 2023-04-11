@@ -1,3 +1,3 @@
-module Chatsonic
-  VERSION = '1.0.0'
+module ChatSonic
+  VERSION = '1.0.1'
 end
