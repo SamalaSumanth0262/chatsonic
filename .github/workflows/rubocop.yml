@@ -39,9 +39,9 @@ jobs:
     - name: Install dependencies
       run: bundle install
 
-    - name: Rubocop run
+    - name: Rubocop run 
       run: |
         bash -c "
-          bundle exec rubocop --require code_scanning
+          bundle exec rubocop --auto-correct --require code_scanning
           [[ $? -ne 2 ]]
         "
