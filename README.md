@@ -18,7 +18,7 @@ Trusted by 1,000,000+ marketing teams, agencies, and freelancers. 10,000+ 5-star
 Add this line to your application's Gemfile:
 
 ```ruby
-gem "chatsonic"
+gem 'chatsonic', '~> 1.0', '>= 1.0.1'
 ```
 
 And then execute:
@@ -118,11 +118,3 @@ You can raise a Bug report in this mentioned format [Bug Report Format](https://
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
-
-## ToDo: Implement
-1. Create a pull request template
-2. Create a circle CI for CI/CD
-3. Rspec to be implemented
-4. Code of Coduct
-5. Contributing
