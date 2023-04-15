@@ -17,7 +17,5 @@ Gem::Specification.new do |spec|
   spec.platform              = Gem::Platform::RUBY
   spec.required_ruby_version = '>= 2.5.0'
   spec.extra_rdoc_files = ['README.md']
-  spec.add_development_dependency 'rubocop', '~> 0.60'
-  spec.add_development_dependency 'rubocop-performance', '~> 1.5'
-  spec.add_development_dependency 'rubocop-rspec', '~> 1.37'
+  spec.add_runtime_dependency 'httparty', '~> 0.18', '>= 0.18.1'
 end
