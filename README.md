@@ -1,7 +1,9 @@
 # ChatGPT Alternative Built With Superpowers - ChatSonic (Now GPT-4 Powered) Rails Gem
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/SamalaSumanth0262/chatsonic/blob/master/LICENSE)
-[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)
+![RuboCop](https://github.com/SamalaSumanth0262/chatsonic/actions/workflows/rubocop.yml/badge.svg)
+![Ruby](https://github.com/SamalaSumanth0262/chatsonic/actions/workflows/ruby.yml/badge.svg)
 
 Use the [ChatSonic API](https://writesonic.com/chat) with Ruby! 🤖❤️
 
@@ -119,10 +121,4 @@ You can raise a Bug report in this mentioned format [Bug Report Format](https://
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
-
-## ToDo: Implement
-1. Create a pull request template
-2. Create a circle CI for CI/CD
-3. Rspec to be implemented
-4. Code of Coduct
-5. Contributing
+### Blog: https://dev.to/samalasumanth0262/chatgpt-alternative-built-with-superpowers-chatsonic-ror-gem-4fo3
